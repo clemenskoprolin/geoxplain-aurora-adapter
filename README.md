@@ -188,6 +188,10 @@ Remote execution uses the same FastAPI/msgpack protocol for GPU listeners and SL
 | `GET /jobs/{job_id}/result` | Fetch the packed `XiaResult`. |
 | `GET /health` | Inspect backend mode, queue depth, and resolved config. |
 
+## Adapting To Other Models
+
+This adapter doubles as a template for other model backends: clone the repository, replace the model, data loading, and target resolution, and swap the method runners, while keeping the dispatch, remote execution, and result serialization unchanged. See [adapt the adapter to another model][adapt-docs-link] for a step-by-step guide.
+
 ## More Details
 
 - [Installation and setup](docs/installation.md)
@@ -197,6 +201,7 @@ Remote execution uses the same FastAPI/msgpack protocol for GPU listeners and SL
 [geoxplain-link]: https://github.com/clemenskoprolin/geoxplain
 [aurora-link]: https://github.com/clemenskoprolin/geoxplain-aurora-adapter
 [docs-link]: https://clemenskoprolin.github.io/geoxplain/
+[adapt-docs-link]: https://clemenskoprolin.github.io/geoxplain/backends/adapt-another-model/
 [remote-docs-link]: https://clemenskoprolin.github.io/geoxplain/guides/remote-execution/#retention
 [overlays-docs-link]: https://clemenskoprolin.github.io/geoxplain/guides/overlays/#choose-which-field-to-overlay-overlay_time
 [demo-link]: https://ckoprolin.ivia.ch/
