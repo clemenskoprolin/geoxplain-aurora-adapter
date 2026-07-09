@@ -1,13 +1,31 @@
 # GeoXplain Aurora Adapter
 
-| [GeoXplain][geoxplain-link] | **[GeoXplain Aurora Adapter][aurora-link]** | [Documentation][docs-link] | [Live demo][demo-link] |
-| --- | --- | --- | --- |
-| Core toolkit | **Current repository** | User guide and API | Hosted viewer |
+| [GeoXplain][geoxplain-link] | **[GeoXplain Aurora Adapter][aurora-link]** | [Documentation][docs-link] | [Live demo][demo-link] | [Paper][paper-link] |
+| --- | --- | --- | --- | --- |
+| Core toolkit | **Current repository** | User guide and API | Hosted viewer | Manuscript |
 
 <details>
 <summary><strong>Cite us</strong></summary>
 
-Will be published shortly.
+The GeoXplain preprint is available on arXiv and has been submitted to
+vis4climate at IEEE VIS 2026. Until the conference version is available, use the arXiv preprint:
+
+Koprolin, C. W., Trentini, L., Soja, B., El-Assady, M., & Humer, C. (2026).
+*GeoXplain: On-the-Fly Visual Explanations for Weather Foundation Models*.
+arXiv:2607.05655 [cs.HC]. https://doi.org/10.48550/arXiv.2607.05655
+
+```bibtex
+@misc{koprolin2026geoxplainontheflyvisualexplanations,
+  title={GeoXplain: On-the-Fly Visual Explanations for Weather Foundation Models},
+  author={Clemens Walter Koprolin and Leonardo Trentini and Benedikt Soja and Mennatallah El-Assady and Christina Humer},
+  year={2026},
+  eprint={2607.05655},
+  archivePrefix={arXiv},
+  primaryClass={cs.HC},
+  doi={10.48550/arXiv.2607.05655},
+  url={https://arxiv.org/abs/2607.05655},
+}
+```
 
 </details>
 
@@ -205,3 +223,4 @@ This adapter doubles as a template for other model backends: clone the repositor
 [remote-docs-link]: https://clemenskoprolin.github.io/geoxplain/guides/remote-execution/#retention
 [overlays-docs-link]: https://clemenskoprolin.github.io/geoxplain/guides/overlays/#choose-which-field-to-overlay-overlay_time
 [demo-link]: https://ckoprolin.ivia.ch/
+[paper-link]: https://arxiv.org/abs/2607.05655
